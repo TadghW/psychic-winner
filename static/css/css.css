@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    padding: 10px 0 0 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    background: beige;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+th {
+    padding: 5px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#addSensorBox, #addDataBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1400px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#addSensorBox>*, #addDataBox>* {
+    padding: 0 5px 0 5px;
+    margin-right: 5px;
+}
+
+table {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 0 5px 0 10px;
+}
+
+.error {
+    width: 600px;
+    padding: 5px;
+    border: 1px solid red;
+    background: rgb(255, 146, 146);
+    margin: 5px;
+}
