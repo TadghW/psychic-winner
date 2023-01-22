@@ -54,3 +54,16 @@ td {
     background: rgb(255, 146, 146);
     margin: 5px;
 }
+
+#query-parameters{
+    margin-bottom: 20px;
+}
+
+#result-space{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

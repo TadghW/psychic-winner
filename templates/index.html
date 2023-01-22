@@ -107,33 +107,33 @@
     </table>
 
     <h4><i>Query Parameters</i></h4>
-    Show me the 
-    <select id="metric1">
-        <option value="max">Maximum</option>
-        <option value="min">Minimum</option>
-        <option value="mean">Mean</option>
-    </select>
-    <select id="metric2">
-        <option value="temp">Temperature</option>
-        <option value="humidity">Humidity</option>
-        <option value="wind-speed">Wind Speed</option>
-        <option value="percipitation">Percipitation Rate</option>
-    </select>
-    in
-    <select id="location">
-        <option value="galway">Galway</option>
-        <option value="mayo">Mayo</option>
-        <option value="ireland">Ireland</option>
-        <option value="marrakesh">Marrakesh</option>
-    </select>
-    from
-    <input type="date" id="from" value="2023-01-22"></input>
-    to
-    <input type="date" id="to" value="2023-01-23"></input>
-    
+    <div id="query-parameters">
+        Show me the 
+        <select id="metric1">
+            <option value="max">Maximum</option>
+            <option value="min">Minimum</option>
+            <option value="mean">Mean</option>
+        </select>
+        <select id="metric2">
+            <option value="temp">Temperature</option>
+            <option value="humidity">Humidity</option>
+            <option value="wind-speed">Wind Speed</option>
+            <option value="percipitation">Percipitation Rate</option>
+        </select>
+        in
+        <select id="location">
+            <option value="galway">Galway</option>
+            <option value="mayo">Mayo</option>
+            <option value="ireland">Ireland</option>
+            <option value="marrakesh">Marrakesh</option>
+        </select>
+        from
+        <input type="date" id="from" value="2023-01-22"></input>
+        to
+        <input type="date" id="to" value="2023-01-23"></input>
+    </div>
 
-    <h4><i>Query Results</i></h4>
-    <br><br>
+    <h4><i>Query Results:</i></h4>
     <div id="result-space"></div>
     <script src="{{url_for('static', filename='js/js.js')}}"></script>
 </body>
