@@ -16,11 +16,15 @@
 
 ### How to run: 
 
-_**Step 1 - Create virtual environment:**_ Create a new python virtual environment at the root of this directory using [venv](https://docs.python.org/3/library/venv.html#module-venv)
+_**Step 1 - Create virtual environment:**_ 
+Create a new folder at the root of this directory named ``env``, and then create a new virtual environment in that folder using [venv](https://docs.python.org/3/library/venv.html#module-venv) with the command ``python3 -m venv /env``
 
-_**Step 2 - Enter virtual environment:**_ Using a terminal / CLI navigate to ``env/Scripts`` (Windows) or ``env/bin`` (MacOS, Linux, Unix-based OS) and run `activate` to enter the virtual environment 
+_**Step 2 - Enter virtual environment:**_ 
+Using a terminal / CLI navigate to ``env/Scripts`` (Windows) or ``env/bin`` (MacOS, Linux, Unix-based OS) and run `activate` to enter the virtual environment 
 
-_**Step 3 - Install requirements:**_ Navigate back to the root folder in the terminal and enter the command `pip install -r requirements.txt`
+_**Step 3 - Install requirements:**_ 
+Navigate back to the root folder in the terminal and enter the command `pip install -r requirements.txt`
 
-_**Step 4 - Launch API + Integration Testing:**_ Now you can launch the API from the terminal with `python3 app.py`. Once the application is running, you can run the accompanying integration tests from the terminal with `python3 test_integration_tests.py`
+_**Step 4 - Launch API + Integration Testing:**_ 
+While inside the virtual environment you can launch the API from the terminal with `python3 app.py`. Once the API is running, you can run the accompanying integration tests from the terminal with `python3 test_integration_tests.py`
 
