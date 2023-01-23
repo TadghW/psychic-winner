@@ -18,7 +18,7 @@
 
 _**Step 1 - Create virtual environment:**_ 
 
-Create a new folder at the root of this directory named ``env``, and then create a new virtual environment within that folder using [venv](https://docs.python.org/3/library/venv.html#module-venv) with the command ``python3 -m venv /env``
+Create a new folder at the root of this directory named ``env``, and then create a new virtual environment within that folder using [venv](https://docs.python.org/3/library/venv.html#module-venv) with the command ``python3 -m venv ./env``
 
 _**Step 2 - Enter virtual environment:**_ 
 
