@@ -18,7 +18,7 @@
 
 _**Step 1 - Create virtual environment:**_ 
 
-Create a new folder at the root of this directory named ``env``, and then create a new virtual environment within that folder using [venv](https://docs.python.org/3/library/venv.html#module-venv) with the command ``python3 -m venv ./env``
+Create a new folder at the root of this directory named ``env``, and then create a new virtual environment within that folder using [venv](https://docs.python.org/3/library/venv.html#module-venv) with the command ``python -m venv ./env``
 
 _**Step 2 - Enter virtual environment:**_ 
 
@@ -30,5 +30,5 @@ Navigate back to the root folder in the terminal and enter the command `pip inst
 
 _**Step 4 - Launch API + Integration Testing:**_ 
 
-While inside the virtual environment you can launch the API from the terminal with `python3 app.py`. Once the API is running, you can run the accompanying integration tests from the terminal with `python3 test_integration_tests.py`
+While inside the virtual environment you can launch the API from the terminal with `python app.py`. Once the API is running, you can run the accompanying integration tests from the terminal with `python3 test_integration_tests.py`
 
