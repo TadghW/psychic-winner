@@ -12,7 +12,7 @@ from.addEventListener("change", updateResults, false);
 to.addEventListener("change", updateResults, false);
 
 function makeQuery(){
-    let url = 'http://127.0.0.1:5000/query'
+    let url = 'http://127.0.0.1:5000/api/query'
     let parameters = '?metric1=' + metric1.value + "&metric2=" + metric2.value + "&location=" + dataLocation.value + "&from=" + from.value +  "&to=" + to.value
     let query= url + parameters;
     let promise = new Promise(function (resolve, reject) {
