@@ -12,7 +12,7 @@
 
 3) Because the documentation states that the solution should be considered a proof of concept I haven't done performance testing or implemented query caching. I also haven't containerised or hosted the application. You can find a containerised and hosted example of [this project](https://github.com/TadghW/pprRank) [here](https://headphones.science)
 
-4) You can interface with the program directly by sending requests to the endpoints, or through a dashboard I made by visiting localhost:5000 in your browser
+4) You can interface with the program directly by sending requests to the endpoints, or through a dashboard I made by visiting `localhost:5000` in your browser
 
 ### How to run: 
 
@@ -30,5 +30,5 @@ Navigate back to the root folder in the terminal and enter the command `pip inst
 
 _**Step 4 - Launch API + Integration Testing:**_ 
 
-While inside the virtual environment you can launch the API from the terminal with `python app.py`. Once the API is running, you can run the accompanying integration tests from the terminal with `pytest test_integration_tests.py`
+While inside the virtual environment you can launch the API from the terminal with `python app.py`. Once the API is running, you can run the accompanying integration tests from the terminal with `pytest test_integration_tests.py` (so long as you're in the virtual environment)
 
