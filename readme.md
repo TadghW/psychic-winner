@@ -1,8 +1,8 @@
-### Coding Challenge Submission Tadgh Wagstaff
+## Coding Challenge Submission Tadgh Wagstaff
 
 *Please see about this solution and instructions on how to run the software below*
 
-#### Notes: 
+### Notes: 
 
 1) I decided to use Python for this solution to compliment my Java-based REST API available [here](https://github.com/TadghW/pprRank). 
 
@@ -14,11 +14,17 @@
 
 4) You can interface with the program directly by sending requests to the endpoints, or through a dashboard I made by visiting localhost:5000 in your browser
 
-#### How to run: 
+### How to run: 
 
-All of the packages and libraries required to run this application are installed in the python virtual environment found at /env. You can enter the virtual environment by running env/Scripts/activate for your operating system from your command line interface. 
+Open a new python virtual environment at the root of this directory using [venv](https://docs.python.org/3/library/venv.html#module-venv)
 
-Once inside the virtual environment you can run this application by navigating to this project's root directory and using the command `python app.py`
+Using a terminal / CLI navigate to ``env/Scripts`` (Windows) or ``env/bin`` (MacOS, Linux, Unix-based OS)
 
-Once the application is running, you can run the integrations tests I wrote for the app with `test_integration_tests.py`
+Enter `activate` into the terminal to run the virtual environment activation script 
+
+Navigate back to the root folder in the terminal and enter the command `pip install -r requirements.txt`
+
+Now you can launch the API from the terminal with `python3 app.py`
+
+Once the application is running, you can run the accompanying integration tests from the terminal with `python3 test_integration_tests.py`
 
