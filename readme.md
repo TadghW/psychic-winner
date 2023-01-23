@@ -1,6 +1,6 @@
 ## Coding Challenge Submission | Tadgh Wagstaff
 
-*Please see about this solution and instructions on how to run the software below*
+*Please notes see about this solution and instructions on how to run the software below*
 
 ### Notes: 
 
