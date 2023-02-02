@@ -22,7 +22,7 @@ Create a new folder at the root of this directory named ``env``, and then create
 
 _**Step 2 - Enter virtual environment:**_ 
 
-Using a terminal / CLI navigate to ``env/Scripts`` (Windows) or ``env/bin`` (MacOS, Linux, Unix-based OS) and run `activate` to enter the virtual environment 
+Using a terminal / CLI navigate to ``env/Scripts`` (Windows) or ``env/bin`` (MacOS, Linux, Unix-based OS) and run `./activate` to enter the virtual environment 
 
 _**Step 3 - Install requirements:**_ 
 
