@@ -76,7 +76,7 @@ def test_data_correct():
 
 def test_query_responds():
     response = requests.get('http://127.0.0.1:5000/api/query?metric1=max&metric2=temp&location=galway&from=2023-01-22&to=2023-01-25')
-    assert response.status_code == 201
+    assert response.status_code == 200
 
 def test_query_response_adjusted():
     response = requests.get('http://127.0.0.1:5000/api/query?metric1=max&metric2=temp&location=galway&from=2023-01-22&to=2023-01-25').content.decode()

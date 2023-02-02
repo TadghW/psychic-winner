@@ -253,11 +253,11 @@ def respondToQuery():
             values.append(entry.precipitation)
     
     if metric1 == 'max':
-        return make_response(str(max(values)), 201)
+        return make_response(str(max(values)), 200)
     if metric1 == 'min':
-        return make_response(str(min(values)), 201)
+        return make_response(str(min(values)), 200)
     if metric1 == 'mean':
-        return make_response(str(sum(values) / len(values)), 201)
+        return make_response(str(sum(values) / len(values)), 200)
 
 
 #DASHBOARD STUFF ---------------------------------------------------------------------------------------------------------------------
